@@ -9,7 +9,5 @@
       {
         var json_str = getCookie('LastPick')
         var Picks = JSON.parse(json_str)
-        Picks = Picks.replace("\"", "");
-        Picks = Picks.replace("\"", "");
         document.getElementById("List").value = Picks
       }
