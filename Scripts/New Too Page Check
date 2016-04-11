@@ -1,5 +1,5 @@
       //New to page script part
-      var Picks = ["Chocolate, Vanilla, Bannana, Carimel, Mint, Rocky Road, Cookies and Cream"]
+      var Picks = ["Chocolate", "Vanilla", "Bannana", "Carimel", "Mint", "Rocky Road", "Cookies and Cream"]
       var json_str = JSON.stringify(Picks)
       var LastPick = getCookie("LastPick")
       if (LastPick == null)
