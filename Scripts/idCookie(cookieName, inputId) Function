@@ -1,6 +1,5 @@
 function idCookie(cookieName, inputId) {
-inputId = inputId + ''
-inputId = inputId.split("#").pop()
+inputId = List
 var input = document.getElementById(inputId).value
 var cookieOutput = JSON.stringify(input)
 createCookie(cookieName, cookieOutput, 30)
