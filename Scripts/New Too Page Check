@@ -6,7 +6,8 @@
       {
         createCookie('LastPick', json_str, 30)
         thingy = document.getElementById("List")
-        thingy.value = Picks.toString();
+        thingy.value = 'FRED' 
+        //Picks.toString();
       }
       else
       {
