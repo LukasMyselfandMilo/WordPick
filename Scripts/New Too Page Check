@@ -2,7 +2,7 @@
       var LastPick = getCookie("LastPick")
       if (LastPick == null)
       {
-        idCookie('LastPick', 'List')
+        idCookie('LastPick')
 
       }
       else
