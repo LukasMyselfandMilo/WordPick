@@ -1,3 +1,5 @@
-function save(cookieName, id) {
-
+function idCookie(cookieName, inputId) {
+var input = document.getElementById(inputid).value
+var cookieOutput = JSON.stringify(input)
+createCookie(cookieName, cookieOutput, 30)
 }
