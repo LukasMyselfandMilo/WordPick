@@ -29,7 +29,7 @@ Word Pick
       //New to page script part
       var Picks = ["Chocolate, Vanilla, Bannana, Carimel, Mint, Rocky Road, Cookies and Cream"]
       var json_str = JSON.stringify(Picks)
-      var LastPick = getcookie("LastPick")
+      var LastPick = getCookie("LastPick")
       if (LastPick == null)
       {
         createCookie('LastPick', json_str)
