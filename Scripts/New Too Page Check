@@ -5,11 +5,11 @@
       if (LastPick == null)
       {
         createCookie('LastPick', json_str, 30)
-        document.getElementById("List").value=Picks
+        document.getElementById("List").value = Picks;
       }
       else
       {
         var json_str = getCookie('LastPick')
         var Picks = JSON.parse(json_str)
-        document.getElementById("List").value = Picks
+        document.getElementById("List").value = Picks;
       }
