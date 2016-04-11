@@ -4,7 +4,7 @@
       var LastPick = getCookie("LastPick")
       if (LastPick == null)
       {
-        createCookie('LastPick', json_str)
+        createCookie('LastPick', json_str, 30)
       }
       else
       {
