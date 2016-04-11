@@ -1,5 +1,4 @@
 function idCookie(cookieName, inputId) {
-inputId = "List"
 var input = document.getElementById(inputId).value
 input = input.replace("\"", "");
 OutputArray = input.split(",")
