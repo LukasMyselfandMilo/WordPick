@@ -11,13 +11,19 @@ Word Pick
 
   <script>
     var input = 'Chocolate,Vanilla,Bannana,Carimel,Mint,Rocky Road,Cookies and Cream'
+    window.onload = function() {
+       //when the document is finished loading, replace everything
+       //between the <a ...> </a> tags with the value of splitText
+   document.getElementById("List").innerHTML=input;
+} 
+
   </script>
   <!--WordChossen-->
   <p><h1><b id=WordInput></b></h1></p>
   <!--Forum-->
   <forum>
     List Of things to pick from with , seperaiton each item<br>
-    <input type="text" id="List" Value=input>
+    <input type="text" id="List">
     
   </forum>
   <!--Buttons-->
