@@ -5,54 +5,9 @@ Word Pick
 <!--BodyInfo-->
 <body>
   <!--Scripts-->
-    <!--PageStart-->
-    <script language="javascript">
-      //Get cookie Function
-      function getCookie(name) {
-     var dc = document.cookie;
-      var prefix = name + "=";
-      var begin = dc.indexOf("; " + prefix);
-      if (begin == -1) {
-        begin = dc.indexOf(prefix);
-        if (begin != 0) return null;
-      }
-     else
-      {
-        begin += 2;
-        var end = document.cookie.indexOf(";", begin);
-        if (end == -1) {
-        end = dc.length;
-        }
-      }
-      return unescape(dc.substring(begin + prefix.length, end));
-      } 
-      //Create Cookie Function
-      var createCookie = function(name, value, days) {
-      var expires;
-      if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        expires = "; expires=" + date.toGMTString();
-      }
-      else {
-        expires = "";
-      }
-     document.cookie = name + "=" + value + expires + "; path=/";
-      }
-      //New to page script part
-      var Picks = ["Chocolate, Vanilla, Bannana, Carimel, Mint, Rocky Road, Cookies and Cream"]
-      var json_str = JSON.stringify(Picks)
-      var LastPick = getCookie("LastPick")
-      if (LastPick == null)
-      {
-        createCookie('LastPick', json_str)
-      }
-      else
-      {
-        var jason_str = getCookie('LastPick')
-        var Picks = JSON.parse(json_str)
-      }
-    </script>
+  <script language="javascript" src="Scripts/New Too Page Check"></script>
+  <script language="javascript" src="Scripts/createCookie(name, Value, Days) Function"></script>
+  <script language="javascript" src="Scripts/getCookie() Function"></script>
   <!--WordChossen-->
   <p><h1><b id=WordInput></b></h1></p>
   <!--Forum-->
