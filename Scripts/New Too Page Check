@@ -5,7 +5,8 @@
       if (LastPick == null)
       {
         createCookie('LastPick', json_str, 30)
-        document.getElementById("List").value = Picks.toString();
+        thingy = document.getElementById("List")
+        thingy.value = Picks.toString();
       }
       else
       {
