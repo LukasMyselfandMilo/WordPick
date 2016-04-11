@@ -7,6 +7,26 @@ Word Pick
   <!--Scripts-->
     <!--PageStart-->
     <script language="javascript">
+      //Get cookie Function
+      function getCookie(name) {
+     var dc = document.cookie;
+      var prefix = name + "=";
+      var begin = dc.indexOf("; " + prefix);
+      if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+      }
+     else
+      {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+      }
+      return unescape(dc.substring(begin + prefix.length, end));
+      } 
+      //New to page script part
       var Picks = ["Chocolate, Vanilla, Bannana, Carimel, Mint, Rocky Road, Cookies and Cream"]
       var json_str = JSON.stringify(Picks)
       var LastPick = getcookie("LastPick")
