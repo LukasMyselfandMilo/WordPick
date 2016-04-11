@@ -1,6 +1,4 @@
       //New to page script part
-
-      var json_str = JSON.stringify(Picks)
       var LastPick = getCookie("LastPick")
       if (LastPick == null)
       {
