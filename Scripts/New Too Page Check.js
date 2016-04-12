@@ -10,4 +10,5 @@
         var json_str = getCookie('LastPick')
         var Picks = JSON.parse(json_str)
         document.getElementById("List").value = Picks
+        generator()
       }
