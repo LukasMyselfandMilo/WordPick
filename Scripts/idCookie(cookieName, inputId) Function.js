@@ -7,4 +7,5 @@ var cookieOutput = JSON.stringify(OutputArray)
 
 createCookie(cookieName, cookieOutput, -1)
 createCookie(cookieName, cookieOutput, 30)
+ generator()
 }
