@@ -1,4 +1,7 @@
 * {
-   margin: auto;
    font-family: Comic Sans MS, Tahoma, Georgia, Geneva, sans-serif;
+ }
+ 
+ textarea.id{
+    margin:auto;
  }
