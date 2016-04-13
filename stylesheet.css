@@ -1,9 +1,14 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(resources\helvetica-neue-medium.ttf);
+}
+
 * {
    font-family: Comic Sans MS, Tahoma, Georgia, Geneva, sans-serif;
  }
  
  .container{
-    width:520px;
+    width:500px;
     margin:auto;
  }
  
@@ -13,13 +18,14 @@
  }
  
  .repeat{
-    width:240px;
+    width:245px;
     min-height:20px;
  }
 
 .newlist{
-   width:240px;
+   width:245px;
    min-height:20px;
+   float:right;
 }
 
 .anaglyph {
