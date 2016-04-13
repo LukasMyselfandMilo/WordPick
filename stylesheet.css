@@ -4,6 +4,7 @@
  
  .container{
     width:520px;
+    margin:auto;
  }
  
  .form{
@@ -20,6 +21,7 @@
    width:240px;
    min-height:20px;
 }
+
 .anaglyph {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
