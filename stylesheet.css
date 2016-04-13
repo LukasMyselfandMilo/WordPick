@@ -3,7 +3,7 @@
     src: url(resources\helvetica-neue-medium.ttf);
 }
 
-* {
+p.h1 {
    font-family: HelveticaNeue, Tahoma, Georgia, Geneva, sans-serif;
  }
  
@@ -15,17 +15,20 @@
  .form{
    width:500px;
    min-height:200px;
+   font-family:HelveticaNeue, Georgia;
  }
  
  .repeat{
     width:245px;
     min-height:20px;
+    font-family:HelveticaNeue, Georgia;
  }
 
 .newlist{
    width:245px;
    min-height:20px;
    float:right;
+   font-family:HelveticaNeue, Georgia;
 }
 
 .anaglyph {
