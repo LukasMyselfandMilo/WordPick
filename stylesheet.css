@@ -10,7 +10,16 @@
    width:500px;
    min-height:200px;
  }
+ 
+ .repeat{
+    width:240px;
+    min-height:20px;
+ }
 
+.newlist{
+   width:240px;
+   min-height:20px;
+}
 .anaglyph {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
