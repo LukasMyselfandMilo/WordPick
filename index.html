@@ -1,0 +1,44 @@
+<!-- Page Style Infomation -->
+<head>
+  <title>Word Pick</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<!--BodyInfo-->
+<body>
+
+
+  <!--WordChossen-->
+ <div class="anaglyph">
+  <p><h1><b id="WordInput">ERROR: Word Not Generated</b><br></h1></p>
+</div>
+  <!--Forum-->
+  <div class="container">
+  <textarea rows="4" cols="50" id="List" wrap="hard" class="form">Chocolate, Vanilla, Bannana, Caramel, Mint, Rocky Road, Cookies and Cream</textarea>
+  <!--Buttons-->
+  <button onclick="generator()" class="repeat">Pick Again!</button>
+  <button onclick="idCookie('LastPick')" class="newlist">Now Pick From This Lot</button> 
+  </div>
+  <!--Advanced Options-->
+  <a id="AdvancedShow" onclick="document.getElementById('AdvancedOptions').style.display=''; document.getElementById('AdvancedShow').style.display='none';" class="link">[Show Advanced Options]</a><span id="AdvancedOptions" style="display: none"><a onclick="document.getElementById('AdvancedOptions').style.display='none'; document.getElementById('AdvancedShow').style.display='';" class="link">[Hide Advanced Options]</a>
+  <br>
+  <form>
+  <!--Input Options Here-->
+  <p>Modes</p>
+  <p>Anaglyph Mode <input type="radio" onclick"" name="Modes" value="On"></p>
+  <p>Night Theme <input type="radio" onclick"" name="Modes" value="On"></p>
+  <p>Comedian Mode <input type="radio" onclick"" name="Modes" value="On"></p>
+  
+  </form>
+  </span>
+  <!--Scripts-->
+  <script>
+    var Picks = ""
+  </script>
+  <script language="javascript" src="Scripts/createCookie(name, Value, Days) Function.js"></script>
+  <script language="javascript" src="Scripts/getCookie() Function.js"></script>
+  <script language="javascript" src="Scripts/idCookie(cookieName, inputId) Function.js"></script>
+  <script language="javascript" src="Scripts/generator() Function.js"></script>
+  <script language="javascript" src="Scripts/New Too Page Check.js"></script>
+
+
+</body>
