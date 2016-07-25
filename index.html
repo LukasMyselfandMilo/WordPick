@@ -17,10 +17,12 @@
   <!--Buttons-->
   <button onclick="generator()" class="repeat">Pick Again!</button>
   <button onclick="idCookie('LastPick')" class="newlist">Now Pick From This Lot</button> 
+  <button onclick="createCookie('LastPick', '', '-1');generator();" class="deletelist">Reset List</button>
   <p>Instructions:
 <p>Input a list, Commas separating each entry (eg; one, 2, Chalie)
 <p>Press "now pick from this lot" to change used list
 <p>Press "Pick again" To pick from current list
+<p>Press "Reset List" to remove the list
 <p>This site uses cookies, No personal information is collected, by using this site you agree to use cookies, to disagree, stop using the site.</p>
   </div>
   <!--Advanced Options
@@ -35,7 +37,7 @@
   
   </form>
   </span>
-  <!--Scripts-->
+  Scripts-->
   <script>
     var Picks = ""
   </script>
