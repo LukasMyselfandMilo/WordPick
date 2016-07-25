@@ -3,6 +3,8 @@
     src: url(resources/helvetica-neue-medium.ttf);
 }
 
+textarea { resize: vertical; }
+
 p.h1 {
    font-family: HelveticaNeue, Tahoma, Georgia, Geneva, sans-serif;
  }
