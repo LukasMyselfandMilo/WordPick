@@ -3,6 +3,17 @@
     src: url(resources/helvetica-neue-medium.ttf);
 }
 
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+canvas {
+    position:absolute;
+}
+
 textarea { resize: vertical; }
 
 p.h1 {
