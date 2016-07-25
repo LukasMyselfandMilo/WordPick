@@ -1,4 +1,5 @@
-      //New to page script part
+      start()
+      function start(){
       var LastPick = getCookie("LastPick")
       if (LastPick == null)
       {
@@ -11,4 +12,5 @@
         var Picks = JSON.parse(json_str)
         document.getElementById("List").value = Picks
         generator()
+      }
       }
