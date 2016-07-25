@@ -28,13 +28,14 @@ p.h1 {
  .repeat{
     width:163px;
     min-height:20px;
+    float:center;
     font-family:HelveticaNeue, Georgia;
  }
 
 .newlist{
    width:163px;
    min-height:20px;
-   float:right;
+   float:left;
    font-family:HelveticaNeue, Georgia;
 }
 
