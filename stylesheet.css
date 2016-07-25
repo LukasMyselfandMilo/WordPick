@@ -9,6 +9,11 @@ p.h1 {
    font-family: HelveticaNeue, Tahoma, Georgia, Geneva, sans-serif;
  }
  
+ #Buttons {
+    width:499px;
+    height:24px;
+ }
+ 
  .container{
     width:500px;
     margin:auto;
