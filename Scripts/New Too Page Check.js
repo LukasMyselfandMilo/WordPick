@@ -1,5 +1,3 @@
-      start()
-      function start(){
       var LastPick = getCookie("LastPick")
       if (LastPick == null)
       {
@@ -13,4 +11,4 @@
         document.getElementById("List").value = Picks
         generator()
       }
-      }
+
