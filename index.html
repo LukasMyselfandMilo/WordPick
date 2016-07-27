@@ -17,7 +17,7 @@
   <!--Buttons-->
   <button onclick="idCookie('LastPick')" class="newlist">Now Pick From This Lot</button>
   <button onclick="generator()" class="repeat">Pick Again!</button>
-  <button onclick="createCookie('LastPick', '', '-1');start();" class="resetlist">Reset List</button>
+  <button onclick="delete_cookie('LastPick');start();" class="resetlist">Reset List</button>
   <p>Instructions:
 <p>Input a list, Commas separating each entry (eg; one, 2, Chalie)
 <p>Press "now pick from this lot" to change used list
@@ -46,6 +46,6 @@
   <script language="javascript" src="Scripts/idCookie(cookieName, inputId) Function.js"></script>
   <script language="javascript" src="Scripts/generator() Function.js"></script>
   <script language="javascript" src="Scripts/New Too Page Check.js"></script>
-
+  <script language="javascript" src="Scripts/delete_cookie(name).js"></script>
 
 </body>
